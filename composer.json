@@ -1,0 +1,27 @@
+{
+    "name": "esmaili/message",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fahime shahzeidi",
+            "email": "shahzeydyfah@gmail.com"
+        }
+    ],
+    "require": {
+        "kavenegar/laravel": "^1.3",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esmaili\\Message\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esmaili\\Message\\MessageServiceProvider"
+            ]
+
+        }
+    }
+}
